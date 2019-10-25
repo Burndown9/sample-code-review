@@ -3,7 +3,7 @@
 # This is a typical part of any program
 # Author: <author>
 # Creation Date: <date>
-# Below is a simple program with 10 issues (some are syntax errors and some are logic errors.  You need to identify the issues and correct them.
+# Below is a simple program with 10 issues (some are syntax errors and some are logic errors.  You need to identify the issues and correct them.    
 
 import random
 import time
@@ -17,11 +17,11 @@ def displayIntro():
 
 def chooseCave():
     cave = ''
-	while cave != '1' and cave != '2':
-		print('Which cave will you go into? (1 or 2)')
-		cave = input()
+    while cave != '1' and cave != '2':
+        print('Which cave will you go into? (1 or 2)')
+        cave = input()
 
-	return caves
+    return cave
 
 def checkCave(chosenCave):
 	print('You approach the cave...')
@@ -39,10 +39,10 @@ def checkCave(chosenCave):
 	if chosenCave == str(friendlyCave):
 		print('Gives you his treasure!')
 	else:
-		print 'Gobbles you down in one bite!'
+		print('Gobbles you down in one bite!')
 
 playAgain = 'yes'
-while playAgain = 'yes' or playAgain = 'y':
+while playAgain == 'yes' or playAgain == 'y':
 	displayIntro()
 	caveNumber = choosecave()
 	checkCave(caveNumber)
@@ -50,5 +50,5 @@ while playAgain = 'yes' or playAgain = 'y':
 	print('Do you want to play again? (yes or no)')
 	playAgain = input()
 	if playAgain == "no":
-		print("Thanks for planing")
+		print("Thanks for playing")
 
